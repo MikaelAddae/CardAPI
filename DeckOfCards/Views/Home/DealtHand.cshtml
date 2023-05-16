@@ -1,0 +1,13 @@
+﻿@model Hand
+
+@{
+    foreach (Card c in Model.cards)
+    {
+        
+        <p>@c.value of @c.suit</p>
+        <img src ="@c.image"/>
+        <p></p>
+        
+
+    }
+}
